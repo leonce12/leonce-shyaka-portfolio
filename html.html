@@ -1,83 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Leonce Shyaka - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shyaka Leonce | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="hero">
-        <h1>Leonce Shyaka</h1>
-        <p>Welcome to my personal portfolio!</p>
+  <main class="container">
+    <!-- Hero -->
+    <section class="hero">
+      <h1>Shyaka Leonce</h1>
+      <p>Applied Computer Technology Student @ USIU-Africa</p>
+      <div class="buttons">
+        <a href="mailto:shyakaleonce@email.com">Email</a>
+        <a href="https://linkedin.com/in/shyakaleonce" target="_blank">LinkedIn</a>
+        <a href="https://github.com/shyakaleonce" target="_blank">GitHub</a>
+      </div>
     </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hi! I'm Leonce Shyaka, a passionate software developer and technology enthusiast.</p>
+    <!-- About -->
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        I'm Shyaka Leonce, an Applied Computer Technology student at USIU-Africa. I'm passionate about tech, leadership, and building community-driven solutions. I also represent the Rwandan student community and play volleyball and swim competitively.
+      </p>
     </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>JavaScript</li>
-            <li>HTML & CSS</li>
-            <li>React.js</li>
-            <li>Node.js</li>
-            <li>Python</li>
-        </ul>
+    <!-- Skills -->
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li><li>TailwindCSS</li>
+        <li>Node.js</li><li>SQL</li><li>Python</li><li>Git</li><li>Firebase</li>
+      </ul>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Library Management System</h3>
-            <p>A web application to manage books in a library.</p>
-        </div>
-        <div class="project">
-            <h3>Premier League Table</h3>
-            <p>A project to display the current standings of the Premier League.</p>
-        </div>
+    <!-- Projects -->
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Student Community Portal</h3>
+        <p>A platform for USIU-Africa students to connect and collaborate.</p>
+      </div>
+      <div class="project">
+        <h3>Rwanda Community App</h3>
+        <p>Event & announcement app for Rwandan students in the university.</p>
+      </div>
     </section>
 
-    <section id="blog">
-        <h2>Blog</h2>
-        <p>Stay tuned for upcoming blog posts!</p>
+    <!-- Contact -->
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <p>I'm open to collaborations. Let's connect!</p>
     </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <form id="contact-form">
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" required>
-
-            <label for="email">Your Email:</label>
-            <input type="email" id="email" required>
-
-            <label for="message">Your Message:</label>
-            <textarea id="message" required></textarea>
-
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Leonce Shyaka. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
+  </main>
 </body>
 </html>
